@@ -1,0 +1,28 @@
+FAZENDA AMIGÃO — VERSÃO DE DEMONSTRAÇÃO PARA A DUPLA
+
+Esta cópia contém DADOS TOTALMENTE FICTÍCIOS, inseridos para apresentação.
+8 clientes, 12 compras, 14 vendas e 5 lançamentos financeiros.
+O painel financeiro calcula automaticamente receitas, despesas e saldo.
+Os números são ilustrativos, não representam escrituração ou movimentações reais.
+
+PARA ABRIR NO WINDOWS
+1. Extraia TODA a pasta Fazenda_Amigao do ZIP (não execute dentro do ZIP).
+2. Instale Java JDK 17 ou superior, caso necessário (é preciso ter java e javac).
+3. Abra a pasta Fazenda_Amigao e dê dois cliques em iniciar.bat.
+4. Caso o navegador não abra, use http://127.0.0.1:8787
+5. Não abra o index.html diretamente: as operações dependem do Java.
+6. Se aparecer "Address already in use", feche outra execução do sistema.
+
+PARA EDITAR O CÓDIGO
+Abra a pasta Fazenda_Amigao no VS Code (File > Open Folder...).
+Java: src/FazendaAmigao.java
+HTML: web/index.html
+CSS: web/style.css
+JavaScript: web/app.js
+
+PERSISTÊNCIA
+Os dados estão em dados/fazenda.dat. Faça uma cópia desse arquivo antes
+ de experimentar exclusões ou alterar o formato da serialização Java.
+
+IMPORTANTE: Este pacote parte da versão original do projeto disponibilizada
+na conversa em 18/11/2026. Modificações locais posteriores não foram incluídas.

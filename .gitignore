@@ -1,0 +1,18 @@
+# Arquivos gerados pela compilação
+build/
+*.class
+out/
+bin/
+
+# Configurações locais do VS Code
+.vscode/
+
+# Dados gerados pelo sistema durante os testes
+dados/*.csv
+dados/*.dat
+dados/*.ser
+
+# Arquivos do sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store

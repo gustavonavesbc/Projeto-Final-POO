@@ -1,0 +1,46 @@
+FAZENDA AMIGÃO — Projeto final de Programação Orientada a Objetos
+
+COMO EXECUTAR NO WINDOWS
+1. Tenha instalado o Java JDK 17 ou superior (inclui javac).
+2. Extraia toda a pasta do arquivo ZIP.
+3. Abra a pasta Fazenda_Amigao no Visual Studio Code.
+4. Dê dois cliques em iniciar.bat na pasta do projeto.
+5. Uma janela Java Swing será aberta e o navegador exibirá o sistema.
+   Se não abrir automaticamente, acesse http://127.0.0.1:8787
+6. Para encerrar, feche a janela Java e o terminal.
+
+Não abra web/index.html com duplo clique: é preciso iniciar o Java
+para salvar e consultar os dados. Não é necessária internet nem
+instalar Node.js, npm ou biblioteca externa.
+
+CÓDIGO PARA EDITAR
+- src/FazendaAmigao.java  : classes Java, regras de negócio, persistência e servidor local.
+- web/index.html        : campos, abas e estrutura visual.
+- web/style.css         : aparência, fontes, cores e layout.
+- web/app.js            : comportamento da interface e conexão com Java.
+
+SALVAMENTO
+- Os cadastros ficam em dados/fazenda.dat (criado automaticamente).
+- Faça backup da pasta dados antes de substituir o projeto.
+- Os valores registrados são demonstrativos e o saldo é calculado
+  por competência: não distingue valores recebidos/pagos e a receber/pagar.
+
+RECURSOS POO
+- Herança: Pessoa => Cliente e Vendedor.
+- Classe abstrata e polimorfismo: Transacao => Compra e Venda.
+- Composição: Compra/Venda contêm Item.
+- Agregação: Banco contém coleções de clientes, compras, vendas e lançamentos.
+- Encapsulamento simplificado e tratamento de exceções: validações,
+  DadosInvalidosException.
+- Persistência: serialização Java para arquivo local.
+- Swing: janela inicial em javax.swing e botão para abrir navegador.
+
+ATENÇÃO AO ENUNCIADO
+O professor pede interface gráfica com javax.swing. Esta versão tem
+janela Swing, mas as telas operacionais são em HTML no navegador.
+Confirme com o professor se este formato híbrido atende ao requisito.
+Se exigir as telas integralmente em Swing, será necessário adaptar.
+
+PRÓXIMAS ETAPAS
+Revisar interface, editar cadastros existentes, relatórios, UML,
+relatório ABNT e apresentação em sala.
